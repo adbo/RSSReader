@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "233003439763",
+    "project_id": "rssreader-91d24",
+    "storage_bucket": "rssreader-91d24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233003439763:android:a920d6487b7350d94c5f66",
+        "android_client_info": {
+          "package_name": "com.example.rssreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233003439763-pgf6nceotcvc8crrcodi9aitum84jul0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rssreader",
+            "certificate_hash": "0f8d41786698f7e5182d95dad1adfa62430966ab"
+          }
+        },
+        {
+          "client_id": "233003439763-gts70ipchglei4c2d86mkq1gn2o9i1v3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfBQ1-tm0Clt9LmJgjJAgymsYXwfgoLzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233003439763-gts70ipchglei4c2d86mkq1gn2o9i1v3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
