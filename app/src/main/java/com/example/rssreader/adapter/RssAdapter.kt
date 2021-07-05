@@ -1,10 +1,12 @@
 package com.example.rssreader
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.rssreader.data.RssItem
@@ -33,6 +35,11 @@ class RssViewHolder(itemView : View): RecyclerView.ViewHolder(itemView){
         Glide.with(itemView.context).load(item.enclosure?.url).into(photo)
         title.text = item.title
         description.text = item.description?.let { item.description.substring(it.indexOf(">")+1) }
+        itemView.setOnClickListener {
+            val intent = Intent(it.context, ItemViewActivity::class.java)
+            intent.putExtra("url", item.link)
+            it.context.startActivity(intent)
+        }
     }
 
 }
