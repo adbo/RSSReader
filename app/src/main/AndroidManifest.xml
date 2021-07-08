@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RSSReader">
-        <activity android:name=".ItemViewActivity"></activity>
+        <activity android:name=".FavoriteActivity"></activity>
+        <activity android:name=".ItemViewActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">
