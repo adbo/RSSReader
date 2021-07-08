@@ -2,7 +2,7 @@
     <string name="app_name">RSS Reader</string>
     <string name="register">Register</string>
     <string name="register_tip">Don\'t have an account?</string>
-    <string name="sign_in">Sign in</string>
+    <string name="sign_in">Sign in with email</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
     <string name="login">Login</string>

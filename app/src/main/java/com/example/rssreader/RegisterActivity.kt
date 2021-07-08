@@ -83,5 +83,14 @@ class RegisterActivity : AppCompatActivity() {
                 ).show()
             }
         }
+
+        val actionbar = supportActionBar
+        actionbar!!.title = "Rss Reader - Register"
+        actionbar.setDisplayHomeAsUpEnabled(true)
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }
